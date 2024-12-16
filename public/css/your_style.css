@@ -1,0 +1,122 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+ 
+.select2-hidden-accessible {
+    display: none;
+}
+#extr-page .login-header-big b{
+    color: #047cff!important;
+}
+#extr-page h4.paragraph-header b {
+    color: #047cff!important;
+}
+
+.form-horizontal header {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px dashed rgba(0,0,0,.2);
+    background: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    color: #232323;
+    margin: 0;
+}
+
+label.first input[type=checkbox].checkbox.style-0+span:before {
+    color: #333;
+    background: #fff;
+    text-shadow: none;
+    box-shadow: none!important;
+    border-width: 1px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 30px;
+    font-size: 20px!important;
+}
+
+.jarviswidget>div .first span {font-size: 16px;}
+
+.form-group sup {color: #ff3030;font-size: 10px;}
+
+#extr-page h4.paragraph-header {width: 100%!important}
+
+.dashboard-empty .percent-sign:after { content : "" !important}
+
+.text-error.help-block{
+    color: #ffcccc;
+    display: block;
+    margin-top: 6px;
+    padding: 0 1px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    /* color: #D56161; */
+}
+.smart-style-5 .form-control.invalid{
+    background: rgba(255,8,8,.2)!important;
+    border-color: #a90329!important;
+}
+
+.smart-style-5 .form-control.valid{
+    background: rgba(98,248,98,.2)!important;
+    border-color: #7dc27d;
+}
+
+.smart-style-5 .select2-container.valid{
+    background: rgba(98,248,98,.2)!important;
+    border-color: #7dc27d;
+}
+.smart-style-5 .select2-container.invalid{
+    background: rgba(255,8,8,.2)!important;
+    border-color: #a90329!important;
+}
+
+.smart-form .icon-append.change-prepend, .smart-form .icon-prepend.change-prepend {
+    position: absolute;
+    top: 5px;
+    width: 40px!important;
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.smart-form .input .icon-prepend.change-prepend+input, .smart-form .textarea .icon-prepend.change-prepend+textarea{
+    padding-left: 60px;
+}
+
+
+#fix-width{width: 300px!important;}
+
+.smart-form section.label {margin-bottom:0px}
+
+
+.dd-empty, .dd-item, .dd-placeholder {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.text-white{color: #fff;}
+.text-white:hover{color: #fff !important;}
